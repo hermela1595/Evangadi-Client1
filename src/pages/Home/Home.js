@@ -5,7 +5,7 @@ import axios from "axios";
 import QuestionsList from "../AskQueation/QuestionList";
 import { MdArrowForwardIos } from "react-icons/md";
 
-const Home = ({ logout }) => {
+const Home = () => {
   const [userData] = useContext(UserContext);
   // const [page, setPage] = useState("Home");
   const [allQuestions, setAllQuestions] = useState([]);
